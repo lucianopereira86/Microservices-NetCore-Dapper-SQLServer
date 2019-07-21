@@ -1,5 +1,5 @@
 # Microservices-NetCore-Dapper-SQLServer
-Microservices communication developed with .Net Core and database connection with Dapper and SQL Server.
+Microservices communication with JWT authorization developed with .Net Core and database connection with Dapper and SQL Server.
 
 ## Technologies:
 
