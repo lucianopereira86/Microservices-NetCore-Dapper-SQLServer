@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITestRegister.Presentation.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="P:APITestRegister.Presentation.WebAPI.Models.VM.UserLoginVM.email">
+            <summary>
+            E-mail
+            </summary>
+        </member>
+        <member name="P:APITestRegister.Presentation.WebAPI.Models.VM.UserLoginVM.password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="P:APITestRegister.Presentation.WebAPI.Models.VM.UserRegisterVM.name">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="T:APITestRegister.Presentation.WebAPI.SwaggerDocs.Attributes.SwaggerProducesAttribute">
+            <summary>
+            SwaggerResponseContentTypeAttribute
+            </summary>
+        </member>
+    </members>
+</doc>

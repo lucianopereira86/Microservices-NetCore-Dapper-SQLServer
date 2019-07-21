@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITestGateway.Presentation.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:APITestGateway.Presentation.WebAPI.SwaggerDocs.Attributes.SwaggerProducesAttribute">
+            <summary>
+            SwaggerResponseContentTypeAttribute
+            </summary>
+        </member>
+    </members>
+</doc>
