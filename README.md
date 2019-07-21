@@ -29,15 +29,15 @@ Microservices communication developed with .Net Core and database connection wit
 
 ![swagger-0](/Docs/swagger-0.PNG)
 
-- To access the APITestRegister's methods is necessary to pass through the APITestGateway, but firstly an authorization token must be created:
-
-![swagger-1](/Docs/swagger-1.PNG)
-
-- The parameter "route" must have the pattern "Controller_Method". For example: the route "user_login" will access the "Login" method in the "UserController" of the APITestRegister.
-- The parameters sent in the request must be the same as the ones the APITestRegister expects to receive.
-
-![swagger-2](/Docs/swagger-2.PNG)
-
 - APITestRegister's swagger:
 
 ![swagger-3](/Docs/swagger-3.PNG)
+
+- An authorization token must be created in the APITestGateway's GET method.
+
+![swagger-1](/Docs/swagger-1.PNG)
+
+- The parameter "route" informed in the APITestGateway's POST method must have the pattern "Controller_Method". For example: the route "user_login" will allow the APITestGateway to access the "Login" method in the "UserController" of the APITestRegister.
+- The parameters sent in the request must be the same as the ones the APITestRegister expects to receive.
+
+![swagger-2](/Docs/swagger-2.PNG)
