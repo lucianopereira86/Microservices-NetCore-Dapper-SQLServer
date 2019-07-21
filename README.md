@@ -33,7 +33,7 @@ Microservices communication developed with .Net Core and database connection wit
 
 ![swagger-1](/Docs/swagger-1.PNG)
 
-- The parameter "route" must have the pattern "<Controller>_<Method>". For example: the route "user_login" will access the "Login" method in the "UserController" of the APITestRegister.
+- The parameter "route" must have the pattern "Controller_Method". For example: the route "user_login" will access the "Login" method in the "UserController" of the APITestRegister.
 - The parameters sent in the request must be the same as the ones the APITestRegister expects to receive.
 
 ![swagger-2](/Docs/swagger-2.PNG)
