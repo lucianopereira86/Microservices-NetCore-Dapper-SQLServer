@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="APITestRegister.Infra.CrossCutting.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APITestRegister.Domain.Domain\APITestRegister.Domain.Domain.csproj" />
+    <ProjectReference Include="..\APITestRegister.Infra.Data.MSSQL\APITestRegister.Infra.Data.MYSQL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
