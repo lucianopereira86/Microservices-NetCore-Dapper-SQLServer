@@ -32,7 +32,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Examples" Version="2.7.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="2.2.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
